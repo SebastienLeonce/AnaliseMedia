@@ -10,3 +10,5 @@ Télérama :
   { name: 'Madison Cox', val: 21 }
 ]
 ```
+
+Source des données : https://github.com/mdiplo/Medias_francais
