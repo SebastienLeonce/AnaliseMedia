@@ -1,6 +1,6 @@
 Ce programme permet de savoir qui possède un média en analysant ses relations. Par exemple pour télérama on obtient le résultat suivant:
 
-```json
+```javascript
 Télérama :
 [
   { name: 'Prisa', val: 15 },
