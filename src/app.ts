@@ -1,8 +1,8 @@
 import * as fs from 'fs-extra';
-import RelationMediasFrancais, { relationMedias } from './relation_medias_francais'
-import MediasFrancais, { mediasFrancais } from './medias_francais'
 var TSV = require('tsv')
 
+import RelationMediasFrancais, { relationMedias } from './relation_medias_francais'
+import MediasFrancais, { mediasFrancais } from './medias_francais'
 
 
 const medias_francais = TSV.parse(fs.readFileSync('./data/medias_francais.tsv').toString())
